@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../../../pbw"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "pemrograman-berbasis-objek-2A-2024"
+  }
+}
