@@ -3,74 +3,53 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pbo.praktikum.pkg1;
-import java.util.Scanner;
 
 /**
  *
- * @author HP
+ * @author acer
  */
-// (Manusia adalah classnya)
+
 class Manusia {
-//  (Atribute)
-    String nama, alamat;
+    String nama;
     int umur;
-    
-//(method)
-   
-    public void berlari(){
-        System.out.println("Objek ini bisa berlari");
+    String alamat;
+    public void berjalan (){
+        System.out.println("Objek ini berjalan");
     }
-    
-    void berjalan(){
-        System.out.println("objek ini bisa berjalan");
-    }
+    public void berlari () {
+        System.out.println("Objek ini berlari");
+    }   
 }
-
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        Scanner input = new Scanner(System.in);
-        Manusia orang1 = new Manusia();
-        Manusia orang2 = new Manusia();
-        
-        System.out.print("Nama orang1: ");
-        orang1.nama = input.nextLine();
+        pbo.praktikum.pkg1.Manusia orang1 = new pbo.praktikum.pkg1.Manusia();
+        pbo.praktikum.pkg1.Manusia orang2 = new pbo.praktikum.pkg1.Manusia();
 
-        System.out.print("Alamat: ");
-        orang1.alamat = input.nextLine();
-
-        System.out.print("Umur: ");
-        orang1.umur = input.nextInt();
-
-        System.out.println("Nama: "      + orang1.nama);
-        System.out.println("NIM: "       + orang1.alamat);
-        System.out.println("Jurusan: "   + orang1.umur);
-       
+        orang1.nama="Sella";
+        orang1.umur=18;
+        orang1.alamat=" Siantar";
         System.out.println("Nama Objek 1 adalah " + orang1.nama);
-        System.out.println("Alamat objek 1 adalah " + orang1.alamat);
-        System.out.println("Umur objek 1 adalah " + orang1.umur + " tahun");
+        System.out.println("Umur Objek 1 adalah " + orang1.umur + " Tahun");
+        System.out.println("Alamat dari objek 1"+orang1. alamat);
         orang1.berjalan();
         orang1.berlari();
-        System.out.println("Terimakasih");
-        System.out.println();
-        
-        
+        System.out.println("Terimakasih ");
+
         orang2.nama = "Angga";
-        orang2.alamat = "Surabaya";
         orang2.umur = 19;
-        System.out.println("Nama objek 2 adalah " + orang2.nama);
-        System.out.println("Alamat objek 1 adalah " + orang2.alamat);
-        System.out.println("Umur objek 2 adalah " + orang2.umur + " tahun");
+        orang2.alamat= " Medan";
+        System.out.println ("Nama Objek 2 adalah " + orang2.nama);
+        System.out.println ("Nama Objek 2 adalah " + orang2.umur + " Tahun");
+        System.out.println("Alamat objek 2 adalah"+orang2. alamat);
         orang2.berjalan();
         orang2.berlari();
         System.out.println("Terimakasih");
-    
     }
 }
-    
 
+  
+
+
+
+    
+        
