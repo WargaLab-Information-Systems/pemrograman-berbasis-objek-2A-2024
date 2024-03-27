@@ -1,0 +1,2 @@
+manusia.manusia
+manusia.Manusia
