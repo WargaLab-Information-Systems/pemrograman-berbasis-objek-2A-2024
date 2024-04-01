@@ -8,17 +8,21 @@ public class NoerKhofifahOktaviaYusufNo2 {
         Scanner input = new Scanner (System.in);
         
         String NAMA, PRODI, ALAMAT;
-        int NIM;
+        long NIM;
 
         
         System.out.print("INPUT NAMA : ");
         NAMA = input.nextLine();
+        
         System.out.print("INPUT PRODI : ");
         PRODI = input.nextLine();
+        
         System.out.print("INPUT ALAMAT : ");
         ALAMAT = input.nextLine();
+        
         System.out.print("INPUT NIM : ");
-        NIM = input.nextInt();
+        NIM = input.nextLong();
+        
         System.out.println("========================");
         System.out.println(NAMA+ " berasal dari "+ALAMAT );
         System.out.println(" Prodi S1 "+PRODI);

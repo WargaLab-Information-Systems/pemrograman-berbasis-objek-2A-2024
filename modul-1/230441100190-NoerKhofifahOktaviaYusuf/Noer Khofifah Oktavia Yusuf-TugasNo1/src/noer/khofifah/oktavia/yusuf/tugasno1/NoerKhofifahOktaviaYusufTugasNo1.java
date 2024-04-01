@@ -1,7 +1,7 @@
 package noer.khofifah.oktavia.yusuf.tugasno1;
-import java.util.Scanner;
+
 class Manusia { 
-    String nama;
+    String nama; 
     int umur;
     String alamat;
   public void berlari(){ 
@@ -20,7 +20,7 @@ public class NoerKhofifahOktaviaYusufTugasNo1 {
         Manusia orang1 = new Manusia();
         Manusia orang2 = new Manusia();
         
-        orang1.nama = "novi";
+        orang1.nama = "novi ";
         orang1.umur = 20;
         orang1.alamat ="pamekasan";
         System.out.print("nama objek 1 adalah " + orang1.nama);
@@ -30,12 +30,12 @@ public class NoerKhofifahOktaviaYusufTugasNo1 {
         orang1.berjalan ();
         orang1.berlari ();
         
-        orang2.nama ="alif";
+        orang2.nama ="alif ";
         orang2.umur = 2;
         orang2.alamat ="jakarta";
         System.out.print("nama objek 2 adalah " + orang2.nama);
-        System.out.print("umur objek 2 adalah " + orang2.umur +"Tahun");
-        System.out.println("alamat objek 2 adalah " + orang2.alamat);
+        System.out.print(" umur objek 2 adalah " + orang2.umur +"Tahun");
+        System.out.println(" alamat objek 2 adalah " + orang2.alamat);
         System.out.println("Thank you");
         orang2.berjalan ();
         orang2.berlari ();
