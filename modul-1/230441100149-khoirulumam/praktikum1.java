@@ -34,7 +34,7 @@ public class Manusia {
     public static void main(String[] args) {
         // Membuat objek Manusia dengan nama "Umam"
         Manusia orang = new Manusia("Umam");
-
+c:\Users\LENOVO\Downloads\LAPRES2_SMBD_C_220441100038_HUSNUL KHOTIMA2.docx
         // Memanggil method berjalan dan berlari
         orang.berjalan("lambat");
         orang.berlari("cepat");
