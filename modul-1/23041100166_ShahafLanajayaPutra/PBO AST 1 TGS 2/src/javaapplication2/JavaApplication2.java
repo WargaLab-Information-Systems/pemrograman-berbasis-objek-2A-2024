@@ -18,7 +18,7 @@ public class JavaApplication2 {
         Scanner a = new Scanner(System.in);
         
         System.out.println("Input Data Mahasiswa");
-        System.out.println("Nama : ");
+        System.out.print("Nama : ");
         String nama = a.nextLine();
         System.out.println("NIM :");
         String nim = a.nextLine();
