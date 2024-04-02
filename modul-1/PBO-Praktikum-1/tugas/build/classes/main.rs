@@ -1,3 +1,0 @@
-Mahasiswa
-main
-tugas.Tugas
