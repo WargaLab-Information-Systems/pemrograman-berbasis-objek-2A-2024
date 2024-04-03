@@ -49,4 +49,5 @@ public class JavaApplication5 {
         orang2.berjalan();
         orang2.berlari();
         System.out.println("Terimakasih");
+    }
 }
