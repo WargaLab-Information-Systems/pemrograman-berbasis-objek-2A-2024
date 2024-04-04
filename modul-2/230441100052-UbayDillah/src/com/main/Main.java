@@ -2,7 +2,7 @@ package com.main;
 
 import java.util.Scanner;
 
-// Parent class 
+// Parent 
 class Universitas {
     private static String namaUniversitas;
 
@@ -15,7 +15,7 @@ class Universitas {
     }
 }
 
-// Child Class
+// Child 
 class Mahasiswa extends Universitas {
     private String nim;
     private String nama;
