@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pbomodul2;
-
 import java.util.Scanner;
 
 class mahasiswa {
@@ -60,7 +59,6 @@ class universitas {
         }
     }
 }
-
 
 public class pbomodul2 {
     
