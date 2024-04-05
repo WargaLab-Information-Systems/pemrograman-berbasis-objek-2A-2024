@@ -1,4 +1,4 @@
-package pbo.praktikum.pkg1;
+package com.main;
 
 class Manusia {
     String nama, alamat;
@@ -14,6 +14,7 @@ class Manusia {
 }
 
 public class Main {
+
     public static void main(String[] args) {
         Manusia orang1 = new Manusia();
         Manusia orang2 = new Manusia();
@@ -37,4 +38,5 @@ public class Main {
         orang2.berlari();
         System.out.println("Terima Kasih");
     }
+    
 }

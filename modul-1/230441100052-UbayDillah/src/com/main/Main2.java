@@ -1,4 +1,4 @@
-package pbo.praktikum.pkg1;
+package com.main;
 
 import java.util.Scanner;
 
@@ -43,7 +43,5 @@ public class Main2 {
 
         System.out.println("\n=========Data Mahasiswa=========");
         mahasiswa1.tampilkanMahasiswa();
-
- 
-   }
+    }
 }
