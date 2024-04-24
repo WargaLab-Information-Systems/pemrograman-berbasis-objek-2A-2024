@@ -1,2 +1,0 @@
-uts.data
-uts.main
