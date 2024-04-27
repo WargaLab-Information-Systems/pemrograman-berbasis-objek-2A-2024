@@ -9,9 +9,21 @@ public class data(){
     String nim = this.nim;
     String asal = this.asal;
     String tgl = this.tgl;
+<<<<<<< HEAD
     String alamat = this.alamat;       
 }
 public class main {
+=======
+    String alamat = this.alamat;
+}
+        
+/**
+ *
+ * @author Dell
+ */
+public class main {
+
+>>>>>>> 6dca956d7cdefcac67cbb1700b9d7b171a895054
     /**
      * @param args the command line arguments
      */
@@ -21,6 +33,7 @@ public class main {
         Scanner input = new Scanner();
         
         System.out.println("nama : ");
+<<<<<<< HEAD
         nama = input.nextLine;
         System.out.println("nim : ");
         nim = input.nextLine;
@@ -32,6 +45,19 @@ public class main {
         
         System.out.println("prodi : ");
         prodi=input.nextLine;            
+=======
+        nama = input.nextLine();
+        System.out.println("nim : ");
+        nim = input.nextLine();
+        System.out.println("asal sekolah : ");
+        asal = input.nextLine();
+        System.out.println("tanggal lahir : ");
+        tgl = input.nextLine();
+        
+        
+        System.out.println("prodi : ");
+        prodi=input.nextLine()
+>>>>>>> 6dca956d7cdefcac67cbb1700b9d7b171a895054
     }
     
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -19,3 +20,26 @@ public class DataMahasiswa {
         Alamat = alamat;
     }
 }   
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package UTS_PBO;
+
+public class DataMahasiswa {
+    String Nama;
+    Integer Nim;
+    String AsalSekolah;
+    Integer TanggalLahir;
+    String Alamat;
+    
+    public void DataMahasiswa(String nama,Integer nim,String asalsekolah,Integer tanggallahir,String alamat){
+        Nama = nama;
+        Nim = nim;
+        AsalSekolah = asalsekolah;
+        TanggalLahir = tanggallahir;
+        Alamat = alamat;
+    }
+}   
+>>>>>>> 6dca956d7cdefcac67cbb1700b9d7b171a895054
