@@ -1,0 +1,9 @@
+uts_praktikumpbo.universitas
+uts_praktikumpbo.UTS_PraktikumPbo
+uts_praktikumpbo.mahasiswa1
+uts_praktikumpbo.mahasiswa
+tugasmodul2.TugasModul2
+tugasmodul2.mahasiswa
+uts_praktikumpbo.TugasModul2
+tugasmodul2.universitas
+uts_praktikumpbo.mhs
