@@ -16,7 +16,7 @@ abstract class OperasiBilanganAbs {
     protected abstract double get_B();
     protected abstract double get_C();
     protected abstract void tampil();
-    protected abstract void test();
+}
 
 final class OperasiBilanganAbsCetak {
     protected void cetakSemua(OperasiBilanganAbs operasi, double a, double b) {
@@ -26,8 +26,6 @@ final class OperasiBilanganAbsCetak {
         operasi.tampil();
     }
 }
-
-
 
 
 public class main {
@@ -59,4 +57,5 @@ public class main {
         operasi.tampil();
     }
 }
+
 
