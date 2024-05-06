@@ -1,2 +1,0 @@
-uts.Aplikasi
-uts.Mahasiswa
