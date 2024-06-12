@@ -13,7 +13,11 @@ class manusia {
     int umur;
     String alamat;
     
+<<<<<<< HEAD
+    public void berlari() {
+=======
     void berlari() {
+>>>>>>> 6dca956d7cdefcac67cbb1700b9d7b171a895054
         System.out.println("Manusia atas nama " + this.nama + " berlari");
     }
         
