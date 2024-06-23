@@ -9,9 +9,15 @@ public class data(){
     String nim = this.nim;
     String asal = this.asal;
     String tgl = this.tgl;
-    String alamat = this.alamat;       
+    String alamat = this.alamat;
 }
+        
+/**
+ *
+ * @author Dell
+ */
 public class main {
+
     /**
      * @param args the command line arguments
      */
@@ -21,17 +27,17 @@ public class main {
         Scanner input = new Scanner();
         
         System.out.println("nama : ");
-        nama = input.nextLine;
+        nama = input.nextLine();
         System.out.println("nim : ");
-        nim = input.nextLine;
+        nim = input.nextLine();
         System.out.println("asal sekolah : ");
-        asal = input.nextLine;
+        asal = input.nextLine();
         System.out.println("tanggal lahir : ");
-        tgl = input.nextLine;
+        tgl = input.nextLine();
         
         
         System.out.println("prodi : ");
-        prodi=input.nextLine;            
+        prodi=input.nextLine()
     }
     
 }
