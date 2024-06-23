@@ -11,6 +11,10 @@ public class Perpustakaan {
         this.jumlahBuku = 0;
     }
 
+    Perpustakaan(int maxBuku) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public void tambahBuku(Buku buku) {
         if (jumlahBuku < maxBuku) {
             daftarBuku[jumlahBuku++] = buku;
