@@ -1,4 +1,0 @@
-kalkulaor.Kalkulator
-kalkulaor.Main
-kalkulaor.OperasiMatematika
-kalkulaor.ProjectKalkulator
