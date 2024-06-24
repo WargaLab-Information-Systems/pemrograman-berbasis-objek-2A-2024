@@ -1,4 +1,0 @@
-OperasiPembagian
-operasibilangan.OperasiPembagian
-operasibilangan.OperasiBilangan
-OperasiBilanganAbs
